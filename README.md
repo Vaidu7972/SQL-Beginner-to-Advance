@@ -6,8 +6,10 @@ Day-5: Aggergate Functions: operations :  COUNT(), MAX(), MIN() , SUM(), AVG()
        Clauses: WHERE (rows) , GROUP BY (group the data) , ORDER BY (aesc / desc) , HAVING  (group)
        Practice question implemented
 Day-6: UPDATE query:  UPDATE student SET grade = "o";
-safe mode on / off:  SET SQL_SAFE_UPDATES=0;  OFF    SET SQL_SAFE_UPDATES=1; ON
-DELETE QUERY:  DELETE student WHERE condition;
+       safe mode on / off:  SET SQL_SAFE_UPDATES=0;  OFF    SET SQL_SAFE_UPDATES=1; ON
+       DELETE QUERY:  DELETE student WHERE condition;
+Day-7: Primary key  , Foreign Key implementation , ERR Diagram visualization  go to database reverse engineer                continue continue choose ur db to visualise next & finish u will get  EER Diagram showing the relation among          the tables
+
 
 
 
