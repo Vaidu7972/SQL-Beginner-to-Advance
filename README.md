@@ -2,7 +2,7 @@ Day-1: creating  database , table , adding data to columns , deleting data by dr
 
 Day-2: Query for if database already exist create & drop query using IF EXISTS & IF NOT EXISTS  
 
-Day-3:
+Day-3: PRACTICE QUESTION EMPLOYEE info
 
 Day-4:
 
@@ -17,6 +17,11 @@ Day-6: UPDATE query:  UPDATE student SET grade = "o";
 Day-7: Primary key  , Foreign Key implementation , ERR Diagram visualization go to database reverse engineer continue continue choose ur db to visualise next & finish u will get  EER Diagram showing the relation among the tables
 
 Day-8: To add column , drop column , rename table , change column rename , modify column 
+
+Day-9: PRACTICE Qs: In the student table :
+a. Change the name of column "name" to "full_name".
+b. Delete all the students who scored marks less than 80.
+c. Delete the column for grades.
 
 
 
