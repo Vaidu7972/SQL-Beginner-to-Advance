@@ -4,11 +4,11 @@ Day-2: Query for if database already exist create & drop query using IF EXISTS &
 
 Day-3: PRACTICE QUESTION EMPLOYEE info
 
-Day-4:
-
-Day-5: Aggergate Functions: operations :  COUNT(), MAX(), MIN() , SUM(), AVG()
+Day-4: Aggergate Functions: operations :  COUNT(), MAX(), MIN() , SUM(), AVG()
        Clauses: WHERE (rows) , GROUP BY (group the data) , ORDER BY (aesc / desc) , HAVING  (group)
        Practice question implemented
+
+Day-5: Grop by clause Practice questions. 
 
 Day-6: UPDATE query:  UPDATE student SET grade = "o";
        safe mode on / off:  SET SQL_SAFE_UPDATES=0;  OFF    SET SQL_SAFE_UPDATES=1; ON
@@ -19,9 +19,9 @@ Day-7: Primary key  , Foreign Key implementation , ERR Diagram visualization go 
 Day-8: To add column , drop column , rename table , change column rename , modify column 
 
 Day-9: PRACTICE Qs: In the student table :
-a. Change the name of column "name" to "full_name".
-b. Delete all the students who scored marks less than 80.
-c. Delete the column for grades.
+       a. Change the name of column "name" to "full_name".
+       b. Delete all the students who scored marks less than 80.
+       c. Delete the column for grades.
 
 
 
