@@ -24,7 +24,7 @@ Day-6: UPDATE query:  UPDATE student
 
 Day-7: Primary key  , Foreign Key implementation , ERR Diagram visualization go to database reverse engineer continue continue choose ur db to visualise next & finish u will get  EER Diagram showing the relation among the tables
 
-Day-8: To add column , drop column , rename table , change column rename , modify column 
+Day-8: ALTER : (To change schema) , To add column , drop column , rename table , change column rename , modify column 
 
 Day-9: PRACTICE Qs: In the student table :
        a. Change the name of column "name" to "full_name".
@@ -37,13 +37,14 @@ Day-A: Joins used to combine data left join ,right join , full join , inner join
        INNER JOIN TABLEB
        ON TABLEA.COLUMNNAME = TABLEB.COLUMNNAME
 
-       By using alias
-       SELECT *
-       FROM TableA as A
-       INNER JOIN TableB as B
-       ON A.id = B.id ;
+  By using alias
+  
+  SELECT *
+  FROM TableA as A
+  INNER JOIN TableB as B
+  ON A.id = B.id ;
 
-       Full JOIN:  LEFT JOIN UNION RIGHT JOIN
+  Full JOIN:  LEFT JOIN UNION RIGHT JOIN
        Left exclusive Join  null remove hota just add (WHERE B.id Is NULL;)
        
 Day-B: union select column from tablea 
