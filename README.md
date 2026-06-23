@@ -8,7 +8,8 @@
        Clauses: WHERE (rows) , GROUP BY (group the data) , ORDER BY (aesc / desc) , HAVING  (group) , limit
        Practice question implemented
 
-# Day-5: Grop by clause Practice questions. note theres a general order
+# Day-5: Grop by clause Practice questions. 
+       note theres a general order
        SELECT columns
        FROM table_name
        WHERE conditions
