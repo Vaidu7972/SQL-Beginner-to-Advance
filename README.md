@@ -98,9 +98,23 @@
         # AUTO INCREMENT - AUTOMATICALLY GENERATES UNIQUE NUMBERS
         
         CREATE  TABLE USERS ( id INT PRIMARY KEY, Email VARCHAR(50) UNIQUE);
+# Day-E: Functions 
+Length fuction
+date fuction 
+Mathematical fuction: mod() ROUND() FLOOR() CEIL()
+condition fuction if()
+
+# Day-F:  # transactions and autocommit
+          SET AUTO COMMIT = 0      #off
+          SET AUTO COMMIT = 1      #On
+          Rollback; if not happpy 
+          Commit; happy with update
+every query treated as a transaction and is commited automatically  
+if we off auto commit we can explicitlly commit or rollback 
 
 
  
+# Day-G: 
 
 
 
