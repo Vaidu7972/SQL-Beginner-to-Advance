@@ -23,13 +23,13 @@ Day-9: PRACTICE Qs: In the student table :
        b. Delete all the students who scored marks less than 80.
        c. Delete the column for grades.
 
-Day-10: Joins used to combine data left join ,right join , full join , inner join , left exclusive join , right exclusive join , self join
+Day-A: Joins used to combine data left join ,right join , full join , inner join , left exclusive join , right exclusive join , self join
 
-Day-11: union select column from tablea 
+Day-B: union select column from tablea 
               UNION
               select column_name from tableb;
 
-Day-12: SUBQuery / nested query / query with in the query
+Day-C: SUBQuery / nested query / query with in the query
         a subquery or inner queru or nested query is a query within another SQL query.
         select name , marks  
         from student 
@@ -39,7 +39,7 @@ Day-12: SUBQuery / nested query / query with in the query
           select name , id , marks from student; 
           select * from view1;
           
-Day-13: constraints 
+Day-D: constraints 
 
 
  
