@@ -10,12 +10,17 @@ Day-4: Aggergate Functions: operations :  COUNT(), MAX(), MIN() , SUM(), AVG()
 
 Day-5: Grop by clause Practice questions.
 #note theres a general order
-#  SELECT columns
-#   FROM table_name
-#   WHERE condition
-#   GROUP BY columns
-#   HAVING condition
-#   ORDER BY columns ASC; 
+SELECT columns
+
+FROM table_name
+
+WHERE condition
+
+GROUP BY columns
+
+HAVING condition
+
+ORDER BY columns ASC; 
 
 Day-6: UPDATE query:  UPDATE student 
                       SET grade = "o";
