@@ -1,9 +1,0 @@
-use college;
-# Constraint   : rules applied to table column to ensure accuracy , validity and integrity of data
-# unique - PREVENT DUPLICATE
-#not null - ENSURE VALUE IS NOT NULL
-# CHECK  - RESTRICT VALUES USING A CONDITION
-# DEFAULT - SETS DEFAULT values
-# PRIMARY KEY - UNIQUELY IDENTIFYIES EACH ROW 
-# AUTO INCREMENT - AUTOMATICALLY GENERATES UNIQUE NUMBERS
-CREATE  TABLE USERS ( id INT PRIMARY KEY, Email VARCHAR(50) UNIQUE);
