@@ -22,7 +22,7 @@ HAVING condition
 
 ORDER BY columns ASC; 
 
-Day-6: UPDATE query:  UPDATE student 
+# Day-6: UPDATE query:  UPDATE student 
                       SET grade = "o";
        safe mode on / off:  SET SQL_SAFE_UPDATES=0;  OFF    SET SQL_SAFE_UPDATES=1; ON
        DELETE QUERY:  DELETE student WHERE condition;
