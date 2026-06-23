@@ -36,18 +36,16 @@ Day-9: PRACTICE Qs: In the student table :
        b. Delete all the students who scored marks less than 80.
        c. Delete the column for grades.
 
-Day-A: Joins used to combine data left join ,right join , full join , inner join , left exclusive join , right exclusive join , self join
+# Day-A: Joins used to combine data left join ,right join , full join , inner join , left exclusive join , right exclusive join , self join
        SELECT * 
        FROM TABLEA
        INNER JOIN TABLEB
        ON TABLEA.COLUMNNAME = TABLEB.COLUMNNAME
-
-  By using alias
-  
-  SELECT *
-  FROM TableA as A
-  INNER JOIN TableB as B
-  ON A.id = B.id ;
+   # By using alias
+   SELECT *
+   FROM TableA as A
+   INNER JOIN TableB as B
+   ON A.id = B.id ;
 
   Full JOIN:  LEFT JOIN UNION RIGHT JOIN
        Left exclusive Join  null remove hota just add (WHERE B.id Is NULL;)
