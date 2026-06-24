@@ -114,8 +114,15 @@ if we off auto commit we can explicitlly commit or rollback
 
 
  
-# Day-G: 
+# Day-G:  Stored Procedure  (encapsulated logic , use to run multiple queries ) $$ WE USE THIS //
+          DELIMITER $$
+          CREATE PROCEDURE PROCEDURE_NAME()
+          BEGIN
+               -- SQL STATMENTS GO HERE
+          END$$
+          DELIMITER;
 
+# Day-H:          
 
 
 
