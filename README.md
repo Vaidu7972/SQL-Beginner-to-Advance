@@ -122,7 +122,17 @@ if we off auto commit we can explicitlly commit or rollback
           END$$
           DELIMITER;
 
-# Day-H:          
+# Day-H:  Trigger : It is a special kind of store program that automatically executed (triggered) when a specific event occurs in table (insert , delete , update)  
+           DELIMITER $$
+           CREATE TRIGGER after_student_insert               #creating a trigger
+           AFTER INSERT ON studenttt
+           FOR EACH ROW
+           BEGIN
+           INSERT INTO student_log(rollno, name)
+           VALUES (NEW.rollno, NEW.name); 
+           END $$
+           DELIMITER ;
+      
 
 
 
