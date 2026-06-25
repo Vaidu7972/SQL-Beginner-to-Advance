@@ -22,4 +22,16 @@ from employees;
 SELECT * , row_number() over(partition by dept order by salary desc) as rnp              #grouping
 from employees;
 
+SELECT * from(
+SELECT * , row_number() over(partition by dept order by salary desc) as rnp
+from employees 
+) as temps
+where rnp = 1 ;
+
+
+SELECT * , rank() over(partition by dept 
+order by salary desc) as rank_no
+from employees ;
+
+
 
