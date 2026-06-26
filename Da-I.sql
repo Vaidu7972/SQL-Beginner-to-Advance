@@ -32,21 +32,20 @@ from employees
 where rnp = 1 ;
 
 
--- SELECT * , rank() over(partition by dept 
--- order by salary desc) as rank_no
--- from employees ;
+SELECT * , rank() over(partition by dept 
+order by salary desc) as rank_no
+from employees ;
 #row number
--- SELECT emp_name,                               #it will allocate  unique row number in decreasing order
--- 		salary,
---         Row_number() over(ORDER BY salary DESC ) AS row_num
--- From employees;
+SELECT emp_name,                               #it will allocate  unique row number in decreasing order
+ 		salary,
+         Row_number() over(ORDER BY salary DESC ) AS row_num
+from employees;
 
 -- #RANK() : give same rank to equal values    skips 
-
--- SELECT emp_name,
---        salary, 
---        Rank() OVER(ORDER BY salary DESC) AS rank_no
--- FROM employees;
+SELECT emp_name,
+        salary, 
+        Rank() OVER(ORDER BY salary DESC) AS rank_no
+FROM employees;
 
 -- #DENSE_RANK() : Similar to RANK but does not skip numbers.
 
