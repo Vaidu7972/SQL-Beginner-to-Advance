@@ -134,7 +134,6 @@ if we off auto commit we can explicitlly commit or rollback
            DELIMITER ;
       
 
-
-
+# Day- I window function (with clause)
        
        
